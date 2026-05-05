@@ -1,0 +1,50 @@
+body{
+    background-color: #c5e4e7;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.calculator{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    gap: 30px;
+    width: 700px;
+}
+.input-section, .display-section{width: 50px;}
+.display-section{
+    background: #00474b;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    background: #f3f9fa;
+    border: none;
+    padding: 10px;
+    text-align: right;
+    font-size: 24px;
+    color:#00474b;
+    border-radius: 5px;
+}
+.tip-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: 10px 0 20px;
+}
+.tip-btn{
+    background: #00474b;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
